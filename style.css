@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+  min-height: 100vh;
+  background-color: black; 
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: sans-serifs;
+}
+button{
+    color:purple;
+    background:none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5rem;
+    padding: 1em 2em;
+    cursor:pointer;
+}
+
+button:hover{
+    color: blue;
+    border: 2px solid blue;
+    box-shadow:0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    box-sizing:inherit;
+
+}
